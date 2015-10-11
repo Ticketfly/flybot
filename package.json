@@ -1,9 +1,12 @@
 {
   "name": "flybot",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": true,
   "author": "y",
   "description": "A simple helpful robot for Ticketfly",
+  "scripts": {
+    "start": "bash ./bin/hubot"
+  },
   "dependencies": {
     "hubot": "^2.16.0",
     "hubot-diagnostics": "0.0.1",
